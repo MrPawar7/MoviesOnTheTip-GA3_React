@@ -1,0 +1,43 @@
+.active {
+    border-bottom: 2px solid black;
+    color:black;
+    background-color: lightgray;
+    border-bottom-style: 3px solid black;
+}
+
+
+.links-style {
+text-decoration: none;
+float: left;
+outline: none;
+cursor: pointer;
+padding: 12px 8px;
+transition: 0.3s;
+color:black;
+font-size: 17px;
+}
+
+.links {
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+    background-color: white;
+  }
+
+  .addToFavourite:hover{
+    cursor: pointer;
+  }
+
+  
+.dialog {
+  box-shadow: 0 8px 6px -6px;
+  position: static;
+  left: 20%;
+  width: 1200px;
+  height: 476px;
+  display: flex;
+justify-content: center;
+}
+
+.image {
+  width: 300px;
+}
